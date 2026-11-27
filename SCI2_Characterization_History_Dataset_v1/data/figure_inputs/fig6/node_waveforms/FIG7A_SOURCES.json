@@ -1,0 +1,18 @@
+{
+ "extraction": "segment from 4th input rise of stage s-1 to next fall (VDD/2 crossings, linear interp), trimmed +0.05/-0.06 ns; identical to make_fig7.py panel (a)",
+ "sources": {
+  "SCI2-RUN-15612": {
+   "member": "NETP_DIAG_V1R2_RAW/runs/SCI2-RUN-15612__fresh/w.raw",
+   "sha256": "bfda2d73652a7bf48ab35c26954db5482c87e42d16bffb68e5e9e76afb3e9335"
+  },
+  "SCI2-RUN-15486": {
+   "member": "NETP_DIAG_V1R2_RAW/runs/SCI2-RUN-15486__fresh/w.raw",
+   "sha256": "30fea6ac13ad2de4be826952543927d8db523492dd2effe92708bfb061555aae"
+  },
+  "SCI2-RUN-15480": {
+   "member": "NETP_DIAG_V1R2_RAW/runs/SCI2-RUN-15480__fresh/w.raw",
+   "sha256": "e90998f9263c9de0c46dc78f68f5f7559496a016fb23f84581b1a263aa3cc545"
+  }
+ },
+ "Veq_source": "mechpkg/out/A_RELAXATION_FIT.csv"
+}

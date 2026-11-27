@@ -1,0 +1,7 @@
+ctx,compared_stage,reference_stage,common_tau_min_ns,common_tau_max_ns,n_common_stage4_samples,max_abs_difference_mV,tau_at_max_ns,limit_mV,method
+SCI2-RUN-15612,2,4,0.30009825,7.42789825,71285,0.14714659550320003,7.42789825,0.2,"linear interpolation onto actual stage4 tau in shared domain, QA only; no plotted samples altered"
+SCI2-RUN-15612,6,4,0.30009825,7.42789825,71285,0.06433972150550026,7.40554825,0.2,"linear interpolation onto actual stage4 tau in shared domain, QA only; no plotted samples altered"
+SCI2-RUN-15486,2,4,0.300046474,7.43634647,71370,0.10878654587999748,7.43634647,0.2,"linear interpolation onto actual stage4 tau in shared domain, QA only; no plotted samples altered"
+SCI2-RUN-15486,6,4,0.300046474,7.43634647,71370,0.04634009250000304,7.41614647,0.2,"linear interpolation onto actual stage4 tau in shared domain, QA only; no plotted samples altered"
+SCI2-RUN-15480,2,4,0.300042834,4.94114283,46412,0.025380149840003696,0.300042834,0.2,"linear interpolation onto actual stage4 tau in shared domain, QA only; no plotted samples altered"
+SCI2-RUN-15480,6,4,0.300042834,4.94114283,46412,0.002463280960000702,4.94114283,0.2,"linear interpolation onto actual stage4 tau in shared domain, QA only; no plotted samples altered"

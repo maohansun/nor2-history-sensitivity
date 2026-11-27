@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: Please cite the SCI2 dataset using its IEEE DataPort DOI once published.
+title: 'Characterization-History Dependence of Threshold-Voltage Sensitivity in NOR2 Gate Chains: Simulation Data and Reproducibility Materials'
+type: dataset
+authors:
+  - family-names: Sun
+    given-names: Maohan
+  - family-names: Sun
+    given-names: Jinghua
+  - family-names: Wang
+    given-names: Tianrun
+version: '1.0'
+abstract: 'Simulation data and numerical postprocessing for characterization-history dependence of per-transistor threshold-voltage delay sensitivity in seven-stage NOR2/NAND2 PTM gate chains.'

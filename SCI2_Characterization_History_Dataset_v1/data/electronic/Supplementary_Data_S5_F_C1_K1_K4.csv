@@ -1,0 +1,5 @@
+﻿context,node,k,v_before_input_rise_V,v_before_input_fall_V
+SCI2-RUN-15486,stage4_internal_N(v(xg04.netp)),1,0.1843981177538592,0.7499583380065402
+SCI2-RUN-15486,stage4_internal_N(v(xg04.netp)),2,0.2083729908714388,0.7499583393186459
+SCI2-RUN-15486,stage4_internal_N(v(xg04.netp)),3,0.2083729910586792,0.7499583393187147
+SCI2-RUN-15486,stage4_internal_N(v(xg04.netp)),4,0.2083729910585497,0.7499583393187271

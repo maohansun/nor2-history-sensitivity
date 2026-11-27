@@ -1,0 +1,9 @@
+﻿group,estimand,n,estimate,ci_low,ci_high,algorithm
+ALL96,mean_diff,96,0.4101970693047416,0.2176879724819242,0.6210175411673858,PCG64 seed20261015 reset each cohort and estimand; sorted context;10000 percentile-linear
+ALL96,median_diff,96,0.06592383050526592,-0.008253408806685644,0.1415888802827465,PCG64 seed20261015 reset each cohort and estimand; sorted context;10000 percentile-linear
+MIN_DEVELOPMENT,mean_diff,32,0.46616664197437757,0.10929813548032206,0.89784696827576,PCG64 seed20261015 reset each cohort and estimand; sorted context;10000 percentile-linear
+MIN_DEVELOPMENT,median_diff,32,0.06897807330052776,-0.08240261857947548,0.2159756646112168,PCG64 seed20261015 reset each cohort and estimand; sorted context;10000 percentile-linear
+EXT_DEVELOPMENT,mean_diff,32,0.4459751273250289,0.15124540313115267,0.811325193307622,PCG64 seed20261015 reset each cohort and estimand; sorted context;10000 percentile-linear
+EXT_DEVELOPMENT,median_diff,32,0.07467698548553234,-0.013442485217243061,0.197034081043403,PCG64 seed20261015 reset each cohort and estimand; sorted context;10000 percentile-linear
+FINAL_BLIND_HOLDOUT,mean_diff,32,0.3184494386148182,0.03697995930525863,0.6403952049595578,PCG64 seed20261015 reset each cohort and estimand; sorted context;10000 percentile-linear
+FINAL_BLIND_HOLDOUT,median_diff,32,0.05411643272973764,-0.07277774691113817,0.18712943083584935,PCG64 seed20261015 reset each cohort and estimand; sorted context;10000 percentile-linear

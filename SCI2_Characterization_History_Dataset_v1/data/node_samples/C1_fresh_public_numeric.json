@@ -1,0 +1,14 @@
+{
+  "configuration": "SCI2-RUN-15486",
+  "source_type": "historical native simulation sampling evidence; metadata redacted",
+  "samples_V": {
+    "1": 0.1843981177538592,
+    "2": 0.2083729908714388,
+    "3": 0.2083729910586792,
+    "4": 0.2083729910585497
+  },
+  "netp_before_inrise_1_V": 0.1843981177538592,
+  "netp_before_inrise_2_V": 0.2083729908714388,
+  "netp_before_inrise_3_V": 0.2083729910586792,
+  "netp_before_inrise_4_V": 0.2083729910585497
+}

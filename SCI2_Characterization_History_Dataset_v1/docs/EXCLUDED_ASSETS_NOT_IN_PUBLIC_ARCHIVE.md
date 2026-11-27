@@ -1,0 +1,3 @@
+# Explicit exclusions
+
+The release excludes: PTM/BSIM model libraries, font files, the original 87+ GB ECS waveform backups, 272 native DC RAW, V4 blind results, author-private directory details, proprietary/third-party documentation, Codex audit files/LLM logs, grant/author approval templates, SCI1 DataPort materials, all original simulator logs, manuscript drafts, and PDF manuscript reviewer files. This list is a scope statement, not a claim these excluded assets are unnecessary for exact reruns of every historic SPICE job. The dataset covers published numerical reproduction and figure inputs.

@@ -1,0 +1,20 @@
+{
+  "status": "READY",
+  "required_contexts": [
+    "SCI2-RUN-15612",
+    "SCI2-RUN-15486",
+    "SCI2-RUN-15480"
+  ],
+  "required_stage": 4,
+  "parameter_sha256": {
+    "A_RELAXATION_FIT.csv": "d1e21ade08fb6ce8530685fd32560911e523829b1fccb15ab85b9878c1584943",
+    "B_INDIRECT_NODE_SENSITIVITY.csv": "05b8117b1e0b71d3399042cc6a6a85dcf8010f20e56912120170a1356003cf8f"
+  },
+  "waveform_csv": "node_waveforms/FIG7A_NODE_WAVEFORMS.csv",
+  "waveform_sha256": "8a304bc6b67ad79e1f893930da0a8ac0bcbd75876b2a5b077c93e5c0f481c389",
+  "sources_json": "node_waveforms/FIG7A_SOURCES.json",
+  "sources_sha256": "fa57f8b1e36fef353536cb5dd485b96b236cc459dd441b556fae8fa1563c8049",
+  "archive_sha256": "ae22c8c745ea96e958723cd29515f51fe51c14cc9e2391b654e31712a0fd7422",
+  "author_override": "Explicit user reply approves this CSV, stage4 RMS<=0.05mV, stage2/6 versus4 maxdifference<0.2mV; no requirement to equal pooled rms_mV",
+  "provenance_statement": "由冻结 NETP_DIAG_V1R2_RAW fresh w.raw 派生；本轮只读作者提供CSV，未解析RAW。"
+}
