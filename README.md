@@ -1,18 +1,23 @@
 
 # Characterization-History Dependence of Threshold-Voltage Sensitivity in NOR2 Gate Chains
 
-**Maohan Sun — First and Corresponding Author**
+**Open Research Data and Reproducibility Materials, 2026**
 
-Open research data and reproducibility materials, November 2026.
+Maohan Sun, Jinghua Sun, and Tianrun Wang
+
+Maohan Sun — First and Corresponding Author
 
 [Zenodo](https://doi.org/10.5281/zenodo.23911543) |
-[IEEE DataPort](https://doi.org/10.21227/k9j4-p590)
+[IEEE DataPort](https://doi.org/10.21227/k9j4-p590) |
+[Python Source Code](SCI2_Characterization_History_Dataset_v1/scripts/) |
+[Research Data](SCI2_Characterization_History_Dataset_v1/data/) |
+[Reproduction Guide](SCI2_Characterization_History_Dataset_v1/README.md)
 
 ## Research Overview
 
 This study investigates the dependence of threshold-voltage sensitivity on characterization history in CMOS NOR2 and NAND2 gate chains.
 
-Transistor-level SPICE simulations using 45 nm and 65 nm predictive technology models are conducted to examine how first-switching and periodic operating conditions affect delay sensitivity and prediction accuracy.
+Transistor-level SPICE simulations using 45 nm and 65 nm predictive technology models examine how first-switching and periodic operating conditions affect delay sensitivity and prediction accuracy.
 
 ## Key Findings
 
@@ -32,43 +37,44 @@ Transistor-level SPICE simulations using 45 nm and 65 nm predictive technology m
 | Characterization conditions | First-switching and periodic |
 | Analysis and visualization | Python |
 
-## Open Data and Source Code
+## Repository Contents
+
+| Resource | Contents |
+|---|---|
+| [Python Scripts](SCI2_Characterization_History_Dataset_v1/scripts/) | Original numerical analysis and plotting programs |
+| [Research Data](SCI2_Characterization_History_Dataset_v1/data/) | Supplementary tables, sensitivity coefficients, delay predictions, and waveform data |
+| [Reproduction Sources](SCI2_Characterization_History_Dataset_v1/reproduction_sources/) | Original circuit topology netlists and reproduction resources |
+| [Reference Figures](SCI2_Characterization_History_Dataset_v1/figures/) | Research figures |
+| [Documentation](SCI2_Characterization_History_Dataset_v1/docs/) | Supporting technical documentation |
+| [Reproduction Guide](SCI2_Characterization_History_Dataset_v1/README.md) | Original dataset organization and execution instructions |
+| [SHA-256 Manifest](SCI2_Characterization_History_Dataset_v1/SHA256SUMS.txt) | Original file-integrity records |
+
+## Open Research Archive
 
 The research data and reproducibility materials were publicly released on November 3, 2026.
 
-**Archive:** SCI2_DataPort_UPLOAD.zip
-
-**Version:** 1.0.0
-
-**Size:** 11.4 MB
+- Version: 1.0.0
+- Archive: SCI2_DataPort_UPLOAD.zip
+- Archive size: 11.4 MB
+- Original dataset files: 95
+- Supplementary CSV tables: 19
+- Circuit topology netlists: 96
 
 [Download Original Research Archive](https://zenodo.org/records/23911543/files/SCI2_DataPort_UPLOAD.zip?download=1)
 
-The archived materials include:
-
-- 96 circuit topology netlists
-- 19 supplementary CSV tables
-- Python analysis and plotting scripts
-- Transistor-level sensitivity records
-- Delay prediction and numerical verification data
-- Selected internal-node waveform data
-- Input-slew and output-load characterization results
-- Figure-source data and reference figures
-- Reproducibility documentation and file-integrity information
-
-### Archive Integrity
-
-MD5 checksum:
+Original ZIP MD5:
 
 `ec5c80c438628e2b6a30f5fae374f787`
 
 ## Reproducibility
 
-Download and extract the original research archive, then follow its accompanying README and execution instructions.
+The original research archive is preserved in this repository with its directory structure and integrity manifest.
 
-Third-party PTM model libraries must be obtained separately to reproduce the transistor-level simulations.
+Follow the original [reproduction guide](SCI2_Characterization_History_Dataset_v1/README.md) for software requirements, data processing, figure generation, and simulation procedures.
 
-The original DOI-linked archive is the authoritative source for the released research materials.
+Third-party PTM model libraries must be obtained separately to reproduce transistor-level simulations.
+
+The DOI-linked Zenodo archive remains the authoritative reference for the released dataset.
 
 ## Scope and Limitations
 
@@ -78,16 +84,8 @@ The designated evaluation dataset is non-blind. The reported findings are based 
 
 ## Related Research
 
-**Path-State-Dependent Aging-Direction Sensitivity in CMOS NOR2 Chains**
-
-IEEE Access, 2026.
-
-[Published Article](https://doi.org/10.1109/ACCESS.2026.3753436) |
-[GitHub Repository](https://github.com/maohansun/nor2-aging-direction)
-
-**GF180MCU Ring-Oscillator Test Chip**
-
-[Source Code and Technical Documentation](https://github.com/maohansun/-tt-gf180-ro-aging)
+- [Path-State-Dependent Aging-Direction Sensitivity in CMOS NOR2 Chains — IEEE Access, 2026](https://github.com/maohansun/nor2-aging-direction)
+- [GF180MCU Ring-Oscillator Test Chip](https://github.com/maohansun/-tt-gf180-ro-aging)
 
 ## Citation
 
